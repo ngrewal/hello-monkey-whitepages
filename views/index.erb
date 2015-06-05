@@ -10,7 +10,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
 
-    <link href="css/client.css"
+    <link href="../public/css/client.css"
       type="text/css" rel="stylesheet" />
     <style>
 
@@ -102,19 +102,10 @@
   <body>
   
     <div class="logos">
-      <div id="twilio"><img src="images/twilio-logo-2100x650.png" width="175px"></img></div>  
-      <div id="whitepages"><img src="//pro.whitepages.com/wp-content/uploads/2014/09/wp-logo-large.png" width="300px"></img></div>
+      <div id="whitepages"><img src="http://pro.whitepages.com/wp-content/uploads/2014/09/wp-logo-large.png" width="300px"></img></div>
     </div>
-    <div class="phone">For demo call: <%=caller_id%></div>  
+    <div class="phone">For demo call:<br />(858) 345-5832</div>  
 
-
-    <button class="call" onclick="answer();">
-      Answer
-    </button>
-
-    <button class="hangup" onclick="hangup();">
-      Hangup
-    </button>
 
     <div id="log">Starting up....</div>
     
